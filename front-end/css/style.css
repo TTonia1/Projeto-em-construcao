@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+.barrazul{
+    background-color: rgb(32, 108, 223);
+    color: white;
+    display: flex;
+}

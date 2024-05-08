@@ -39,3 +39,63 @@ body{
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centrovertical */
 }
+.centralizar-div2{
+    width: 350px;
+    height: 285px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.DivMae{
+    display: flex; 
+    justify-content: center; /*alinha a div filha no centro horizontal */
+    align-items: center; /* alinha a div filha no centrovertical */
+    height: 800px;
+    width: 430px;
+}
+.Jogo{
+    height: 200px;
+    width: 337px;
+    padding-left: 7px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.Animacao{
+    font-size: 20px;
+    font-family: kanit;
+    text-align: center;
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: kanit;
+    src: url(Kanit-Regular.ttf);
+}
+
+.TextJogo{
+    font-family: kanit;
+    font-size: 22px;
+    padding-left: 108px ;
+}
+
+.BarraTextJogo{
+    width: 430px;
+    background-color: rgb(233, 233, 233);
+}
+.TamanhoIdealControle{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+.TamanhoIdealExpandir{
+    height: 40px;
+    width: 40px;
+    padding-left: 190px;
+    padding-top: 18px;
+}
+.TamanhoIdealVolume{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}

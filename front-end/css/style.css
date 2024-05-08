@@ -42,6 +42,66 @@ body{
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centro vertical */
 }
+.centralizar-div2{
+    width: 350px;
+    height: 285px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.DivMae{
+    display: flex; 
+    justify-content: center; /*alinha a div filha no centro horizontal */
+    align-items: center; /* alinha a div filha no centrovertical */
+    height: 800px;
+    width: 430px;
+}
+.Jogo{
+    height: 200px;
+    width: 337px;
+    padding-left: 7px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.Animacao{
+    font-size: 20px;
+    font-family: kanit;
+    text-align: center;
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: kanit;
+    src: url(Kanit-Regular.ttf);
+}
+
+.TextJogo{
+    font-family: kanit;
+    font-size: 22px;
+    padding-left: 108px ;
+}
+
+.BarraTextJogo{
+    width: 430px;
+    background-color: rgb(233, 233, 233);
+}
+.TamanhoIdealControle{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+.TamanhoIdealExpandir{
+    height: 40px;
+    width: 40px;
+    padding-left: 190px;
+    padding-top: 18px;
+}
+.TamanhoIdealVolume{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
 .div-centralizada{
     text-align: center;
     width: 300px;
@@ -50,10 +110,16 @@ body{
 }
 .barrazul-entrar{
     align-items: center;
-    width: 100%;
+    width: 300px;
+    height: 60px;
     background-color: rgb(32, 108, 223);
     color: white;
     display: inline-block;
+}
+.fonte-entrar{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 #fundoCinza{
     height: 135px;
@@ -86,68 +152,13 @@ body{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
+<<<<<<< HEAD
 }
 
 .vermelho{
-    margin-top: 10%;
-    height: 100px;
-    background-color: #F86D6D;
+    height: 20%;
+    background-color: FA0000;
 }
-
-.serie{
-    text-align: center;
-    position: relative;
-    left: 20%;
-    top: 20%;
-    font-family: Arial, Helvetica, sans-serif
+=======
 }
-
-#negs{
-    font-weight: bold;
-    font-size: 120%;
-}
-
-#pare{
-    width: 35%;
-    height: 35%;
-}
-
-#parando{
-    position: relative;
-    left: 10%;
-    top: -100%;
-}
-
-.amarelo{
-    margin-top: 20%;
-    height: 100px;
-    background-color: #FFCC00;
-}
-
-#cicli{
-    width: 62%;
-    height: 62%;
-}
-
-#ciclando{
-    position: relative;
-    left: -2%;
-    top: -100%;
-}
-
-.verde{
-    margin-top: 20%;
-    height: 100px;
-    background-color: #5EDC46;
-}
-
-#eptrans{
-    width: 46%;
-    height: 46%;
-}
-
-#eptrando{
-    position: relative;
-    left: 5%;
-    top: -90%;
-}
+>>>>>>> 577195bb898aff66781fa8909fd01cb4013f0d2d

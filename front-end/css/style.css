@@ -76,10 +76,6 @@ body{
     src: url(../css/Kanit-Regular.ttf);
 }
 
-#body{
-    margin: 0%;
-}
-
 #posi{
     position: absolute;
     top: 9%;
@@ -108,4 +104,9 @@ body{
 .usuario{
     width: 20px;
     height: 20px;
+}
+
+.vermelho{
+    height: 20%;
+    background-color: FA0000;
 }

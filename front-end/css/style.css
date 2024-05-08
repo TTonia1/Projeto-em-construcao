@@ -64,10 +64,6 @@ body{
     src: url(../css/Kanit-Regular.ttf);
 }
 
-#body{
-    margin: 0%;
-}
-
 #posi{
     position: absolute;
     top: 9%;
@@ -80,3 +76,7 @@ body{
     margin: 0% 5% 0% 5%;
 }
 
+.vermelho{
+    height: 20%;
+    background-color: FA0000;
+}

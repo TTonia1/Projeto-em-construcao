@@ -86,13 +86,68 @@ body{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
-<<<<<<< HEAD
 }
 
 .vermelho{
-    height: 20%;
-    background-color: FA0000;
+    margin-top: 10%;
+    height: 100px;
+    background-color: #F86D6D;
 }
-=======
+
+.serie{
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif
 }
->>>>>>> 577195bb898aff66781fa8909fd01cb4013f0d2d
+
+#negs{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#pare{
+    width: 35%;
+    height: 35%;
+}
+
+#parando{
+    position: relative;
+    left: 10%;
+    top: -100%;
+}
+
+.amarelo{
+    margin-top: 20%;
+    height: 100px;
+    background-color: #FFCC00;
+}
+
+#cicli{
+    width: 62%;
+    height: 62%;
+}
+
+#ciclando{
+    position: relative;
+    left: -2%;
+    top: -100%;
+}
+
+.verde{
+    margin-top: 20%;
+    height: 100px;
+    background-color: #5EDC46;
+}
+
+#eptrans{
+    width: 46%;
+    height: 46%;
+}
+
+#eptrando{
+    position: relative;
+    left: 5%;
+    top: -90%;
+}

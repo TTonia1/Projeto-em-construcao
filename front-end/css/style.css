@@ -152,7 +152,7 @@ body{
     border-color: gray;
     border-width: 1px;
 }
-#nao-login{
+.nao-login{
     font-size: 14px;
     color: rgb(32, 108, 223);
 }

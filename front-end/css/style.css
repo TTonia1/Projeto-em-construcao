@@ -39,3 +39,41 @@ body{
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centrovertical */
 }
+
+#fundoCinza{
+    height: 135px;
+    width: 100%;
+    position: relative;
+}
+
+#welcome{
+    font-family: Kanit-bold;
+    font-size: 150%;
+}
+
+@font-face {
+    font-family: Kanit-bold;
+    src: url(../css/Kanit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(../css/Kanit-Regular.ttf);
+}
+
+#body{
+    margin: 0%;
+}
+
+#posi{
+    position: absolute;
+    top: 9%;
+    left: 16%;
+}
+
+#textin{
+    font-family: kanit;
+    text-align: center;
+    margin: 0% 5% 0% 5%;
+}
+

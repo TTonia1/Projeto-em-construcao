@@ -42,7 +42,6 @@ body{
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centro vertical */
 }
-<<<<<<< HEAD
 .centralizar-div2{
     width: 350px;
     height: 285px;
@@ -102,7 +101,7 @@ body{
     width: 30px;
     padding-left: 10px;
     padding-bottom: 5px;
-=======
+}
 .div-centralizada{
     text-align: center;
     width: 300px;
@@ -220,5 +219,4 @@ body{
 #redondo{
     border-radius: 10px;
     border-width: 1px;
->>>>>>> c517acc285cacafbb38185b73f848fbccbb180c0
 }

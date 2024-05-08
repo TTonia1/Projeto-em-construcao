@@ -116,3 +116,12 @@ body{
     height: 20%;
     background-color: FA0000;
 }
+
+.espaco{
+    margin-top: 24px;
+}
+
+.logo{
+    max-width: 300px;
+    padding-left: 50px;
+}

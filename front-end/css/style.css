@@ -152,13 +152,37 @@ body{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
-<<<<<<< HEAD
 }
 
 .vermelho{
     height: 20%;
     background-color: FA0000;
 }
-=======
+.usuario{
+    width: 20px;
+    height: 20px;
 }
->>>>>>> 577195bb898aff66781fa8909fd01cb4013f0d2d
+.espacamento-login{
+    margin-top: 20%;
+}
+.textos-azuis{
+    color: rgb(32, 108, 223);
+}
+.logo{
+    width: 400px;
+}
+.entrar{
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+}
+#cadastrar{
+    margin-top: 5%;
+    font-size: 20px;
+    width: 140px;
+}
+.campo-registro{
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+}

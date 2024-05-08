@@ -35,14 +35,26 @@ body{
     height: 20px;
 }
 .centralizar-div{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 700px;
     display: flex; 
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centro vertical */
 }
-
+.div-centralizada{
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: #EFEFEF;
+}
+.barrazul-entrar{
+    align-items: center;
+    width: 100%;
+    background-color: rgb(32, 108, 223);
+    color: white;
+    display: inline-block;
+}
 #fundoCinza{
     height: 135px;
     width: 100%;
@@ -74,9 +86,13 @@ body{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
+<<<<<<< HEAD
 }
 
 .vermelho{
     height: 20%;
     background-color: FA0000;
 }
+=======
+}
+>>>>>>> 577195bb898aff66781fa8909fd01cb4013f0d2d

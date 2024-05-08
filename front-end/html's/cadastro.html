@@ -3,35 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link reel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Cadastro</title>
 </head>
 <body>
     <div class="barrazul">
-        <p>Início</p>
+        <img class="imagem-tres-barras" src="../imagens/menu.png">
+        <p> Início</p>
+        <img class="imagem-maior-que" src="../imagens/maior-que.png">
         <p>EPTRAN</p>
+        <img class="imagem-maior-que" src="../imagens/maior-que.png">
         <p>Login</p>
+        <img class="user" src="../imagens/user.png">
+        <img class="engrenagem" src="../imagens/gear.png">
     </div>
-    <div>
-        <P>Cadastro</P>
-        <div>
-            <input value="Nome Completo">
-            <input value="Logadouro">
-            <input value="Nome de Usuario">
-            <input value="Senha">
-            <select>
-                <option>Selecione sua Escolaridade</option>
-                <option>Séries Iniciais</option>
-                <option>Séries Finais</option>
-                <option>Ensino Médio</option>
-                <option>Ensino Superior</option>
-            </select>
-            <div>
-                <button type="button">CADASTRAR</button>
-                <p>Já tem login?</p>
-                <button type="button">LOGIN</button> 
+    <div class="centralizar-div">
+        <div class="div-centralizada">
+            <div id="cadastro">
+                <P>Cadastro</P>
             </div>
-         </div>
+            <div id="meinho">
+                <div>
+                    <img class="user" src="../imagens/user.png">
+                    <input value="Nome Completo">
+                </div>
+                <div>
+                    <input value="Cidade">
+                </div>
+                <div>
+                    <input value="Nome de Usuario">
+                </div>
+                <div>
+                    <img class="imagem-entrar" src="../imagens/cadeado.png">
+                    <input value="Senha">
+                </div>
+                <select>
+                    <option>Selecione sua Escolaridade</option>
+                    <option>Séries Iniciais</option>
+                    <option>Séries Finais</option>
+                    <option>Ensino Médio</option>
+                    <option>Ensino Superior</option>
+                </select>
+                <div>
+                    <button type="button" class="entrar">CADASTRAR</button>
+                    <p>Já tem login?</p>
+                    <button type="button" class="entrar">LOGIN</button> 
+                </div>
+             </div>
+        </div>
     </div>
 </body>
 </html>

@@ -94,10 +94,17 @@ body{
     margin: 0% 5% 0% 5%;
 }
 .entrar{
+    font-size: 20px;
+    width: 100px;
     background-color: white;
     border-radius: 20px;
 }
-
+.cadastrar-se{
+    font-size: 20px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
 #meinho{
     text-align: center;
 }
@@ -114,7 +121,7 @@ body{
 
 .vermelho{
     height: 20%;
-    background-color: FA0000;
+    background-color: #FA0000;
 }
 
 .espaco{
@@ -124,4 +131,32 @@ body{
 .logo{
     max-width: 300px;
     padding-left: 50px;
+}
+.espacamento-login{
+    margin-top: 20%;
+}
+.campo-registro{
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+}
+#recuperar-senha{
+    width: 270px;
+    font-size: 14px;
+    color: rgb(32, 108, 223);
+}
+.botao-registro{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+}
+#nao-login{
+    font-size: 14px;
+    color: rgb(32, 108, 223);
+}
+#redondo{
+    border-radius: 10px;
+    border-width: 1px;
 }

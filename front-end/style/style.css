@@ -135,7 +135,7 @@ body{
     position: relative;
 }
 
-.bem-vindo{
+.tituloCabecalho{
     font-family: Kanit-bold;
     font-size: 150%;
 }
@@ -150,19 +150,19 @@ body{
     src: url(../style/Kanit-Regular.ttf);
 }
 
-#posi{
+#posicaoCabecalho{
     position: absolute;
     top: 9%;
     left: 16%;
 }
 
-#textin{
+#textoIntroducao{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
 }
 
-.vermelho{
+.fundoVermelho{
     text-align: center;
     margin-top: 10%;
     height: 120px;
@@ -200,61 +200,61 @@ body{
     border-width: 1px;
 }
 
-.series{
+.todoTextoDaDiv{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 22%;
     left: 23%;
 }
 
-#negs{
+.deixarEmNegrito{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
 
-#pare{
+#tamanhoImagem1{
     width: 40%;
     height: auto;
 }
 
-#parando{
+#posicaoImagem1{
     position: relative;
     top: -85%;
     right: 23%;   
 }
 
-.amarelo{
+.deixarFundoAmarelo{
     text-align: center;
     margin-top: 17%;
     height: 120px;
     background-color: #FFCC00;
 }
 
-#cicli{
+#tamanhoImagem2{
     width: 70%;
     height: auto;
 }
 
-#ciclando{
+#posicaoImagem2{
     position: relative;
     top: -83%;
     right: 22%;  
 }
 
-.verde{
+.deixarFundoVerde{
     text-align: center;
     margin-top: 17%;
     height: 120px;
     background-color: #5EDC46;
 }
 
-#eptrans{
+#tamanhoImagem3{
     width: 50%;
     height: auto;
 }
 
-#eptrando{
+#posicaoImagem3{
     position: relative;
     top: -70%;
     right: 22%;  

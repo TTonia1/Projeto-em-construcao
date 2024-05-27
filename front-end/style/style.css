@@ -150,7 +150,7 @@ body{
     src: url(../style/Kanit-Regular.ttf);
 }
 
-#posicaoCabecalho{
+#posicaoCabecalho{ /* REVISAR */
     position: absolute;
     top: 9%;
     left: 16%;

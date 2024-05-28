@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-.barra-navegacao{
+.barra_navegacao{
     align-items: center;
     width: 100%;
     background-color: #05466c;
@@ -10,27 +10,27 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.imagem-tres-barras{
+.imagem_tres_barras{
     filter: invert(100%) ;
     padding-left: 20px;
     padding-right: 15px;
     width: 28px;
     height: 28px;
 }
-.imagem-maior-que{
+.imagem_maior_que{
     filter: invert(100%);
     padding-left: 10px;
     padding-right: 10px;
     width: 10px;
     height: 15px;
 }
-.usuario-branco{
+.usuario_branco{
     padding-left: 90px;
     width: 20px;
     height: 20px;
     filter: invert(100%);
 }
-.usuario-branco-login{
+.usuario_branco_login{
     padding-left: 150px;
     width: 20px;
     height: 20px;
@@ -42,7 +42,7 @@ body{
     width: 20px;
     height: 20px;
 }
-.centralizar-div{
+.centralizar_div{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 700px;
@@ -50,26 +50,26 @@ body{
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centro vertical */
 }
-.centralizar-animacao{
+.centralizar_animacao{
     width: 350px;
     height: 300px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
 }
-.DivMae{
+.div_mae{
     display: flex; 
     justify-content: center; /*alinha a div filha no centro horizontal */
     align-items: center; /* alinha a div filha no centrovertical */
     height: 800px;
     width: 100%;
 }
-.Jogo{
+.jogo{
     height: 200px;
     width: 337px;
     padding-top: 5px;
     border-radius: 10px;
 }
-.Animacao{
+.animacao{
     font-size: 20px;
     font-family: kanit;
     text-align: center;
@@ -81,42 +81,42 @@ body{
     src: url(Kanit-Regular.ttf);
 }
 
-.TextoJogo{
+.texto_jogo{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 20%;
 }
 
-.BarraTextoJogo{
+.barra_texto_jogo{
     width: 430px;
     background-color: rgb(233, 233, 233);
 }
-.TamanhoIdealControle{
+.tamanho_ideal_controle{
     height: 40px;
     width: 40px;
     padding-left: 10px;
     padding-top: 18px;
 }
-.TamanhoIdealExpandir{
+.tamanho_ideal_expandir{
     height: 40px;
     width: 40px;
     padding-left: 190px;
     padding-top: 18px;
 }
-.TamanhoIdealVolume{
+.tamanho_ideal_volume{
     height: 30px;
     width: 30px;
     padding-left: 10px;
     padding-bottom: 5px;
 }
-.div-centralizada{
+.div_centralizada{
     text-align: center;
     width: 300px;
     height: 400px;
     background-color: #EFEFEF;
 }
-.barrazul-entrar{ /*fundo do titulo cadastro e login*/
+.barrazul_entrar{ /*fundo do titulo cadastro e login*/
     align-items: center;
     width: 300px;
     height: 60px;
@@ -124,18 +124,18 @@ body{
     color: white;
     display: inline-block; 
 }
-.fonte-entrar{
+.fonte_entrar{
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.fundoCinza{
+.fundo_cinza{
     height: 135px;
     width: 100%;
     position: relative;
 }
 
-.tituloCabecalho{
+.titulo_cabecalho{
     font-family: Kanit-bold;
     font-size: 150%;
 }
@@ -150,19 +150,19 @@ body{
     src: url(../style/Kanit-Regular.ttf);
 }
 
-.posicaoCabecalho{
+.posicao_cabecalho{
     position: absolute;
     top: 9%;
     left: 16%;
 }
 
-.textoIntroducao{
+.texto_introducao{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
 }
 
-.FundoVermelho{
+.fundo_vermelho{
     text-align: center;
     margin-top: 10%;
     height: 120px;
@@ -173,10 +173,10 @@ body{
     width: 20px;
     height: 20px;
 }
-.espacamento-login{
+.espacamento_login{
     margin-top: 20%;
 }
-.textos-azuis{
+.textos_azuis{
     color: rgb(32, 108, 223);
 }
 .logo_prefeitura{
@@ -190,114 +190,114 @@ body{
     width: 150px;
     height: 90px;
 }
-.campo-registro{
+.campo_registro{
     border-radius: 10px;
     border-color: gray;
     border-width: 1px;
 }
 
-.todoTextoDaDiv{
+.todo_textoDaDiv{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 22%;
     left: 23%;
 }
 
-.deixarEmNegrito{
+.deixar_negrito{
     color: #EFEFEF;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
 
-#tamanhoImagem1{
+#tamanho_imagem1{
     width: 40%;
     height: auto;
 }
 
-#posicaoImagem1{
+#posicao_imagem1{
     position: relative;
     top: -85%;
     right: 23%;   
 }
 
-.FundoAmarelo{
+.fundo_amarelo{
     text-align: center;
     margin-top: 17%;
     height: 120px;
     background-color: #fabe27;
 }
 
-#tamanhoImagem2{
+#tamanho_magem2{
     width: 70%;
     height: auto;
 }
 
-#posicaoImagem2{
+#posicao_imagem2{
     position: relative;
     top: -83%;
     right: 22%;  
 }
 
-.FundoVerde{
+.fundo_verde{
     text-align: center;
     margin-top: 17%;
     height: 120px;
     background-color: #027551;
 }
 
-#tamanhoImagem3{
+#tamanho_imagem3{
     width: 50%;
     height: auto;
 }
 
-#posicaoImagem3{
+#posicao_imagem3{
     position: relative;
     top: -70%;
     right: 22%;  
 }
-#aba-menu{
+#aba_menu{
     width: 75%;
     height: 122%;
     position: absolute;
     top:0.1%;
     background-color:#05466c;
 }
-.texto-menu-select{
+.texto_menu_select{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.texto-menu{
+.texto_menu{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(199, 194, 194);
 }
-.menu-suspenso{
+.menu_suspenso{
     margin-left: 20%;
 }
-#barra-menu{
+#barra_menu{
     margin-top: 187%;
 }
 .flexivel{
     display: flex;
     align-items: center;
 }
-.engrenagem-menu{
+.engrenagem_menu{
     padding-right: 5%;
     filter: invert(80%);
     padding-left: 20px;
     width: 20px;
     height: 20px;
 }
-#barrazul-menu{
+#barrazul_menu{
     align-items: center;
     width: 100%;
     background-color: #05466c;;
     color: white;
     display: flex;
 }
-.imagem-tres-barras-menu{
+.imagem_tres_barras_menu{
     filter: invert(100%) ;
     padding-left: 20px;
     padding-right: 15px;
@@ -305,7 +305,7 @@ body{
     height: 28px;
     padding-top: 3%;
 }
-#Transparente{
+#transparente{
     filter: opacity(52%);
 }
 .rodape{
@@ -318,7 +318,7 @@ body{
     height: 110px;
     display: flex;
 }
-.botao_entrar { /* Botão animado, para login e cadastro, é um código open source */
+.botao_entrar { /* Botão animado, para login e cadastro, é um código open source  retirado do site: uiverse*/
     padding: 1.3em 3em;
     font-size: 12px;
     text-transform: uppercase;

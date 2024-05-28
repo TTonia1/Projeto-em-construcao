@@ -179,20 +179,16 @@ body{
 .textos-azuis{
     color: rgb(32, 108, 223);
 }
-.logo-prefeitura{
-    width: 400px;
+.logo_prefeitura{
+    padding-left: 50px;
+    width: 150px;
+    height: 80px;
 }
-.entrar{
-    font-size: 20px;
-    width: 100px;
-    border-radius: 20px;
-    border-width: 1px;
-}
-#cadastrar{
-    margin-top: 5%;
-    font-size: 20px;
-    width: 140px;
-    border-radius: 20px;
+.logo_projeto{
+    filter: invert(19%) sepia(18%) saturate(5009%) hue-rotate(176deg) brightness(40%) contrast(96%);
+    padding-left: 25px;
+    width: 150px;
+    height: 90px;
 }
 .campo-registro{
     border-radius: 10px;
@@ -265,7 +261,7 @@ body{
     height: 122%;
     position: absolute;
     top:0.1%;
-    background-color:#05466c;;
+    background-color:#05466c;
 }
 .texto-menu-select{
     font-weight: bold;
@@ -312,3 +308,39 @@ body{
 #Transparente{
     filter: opacity(52%);
 }
+.rodape{
+    background-color: #f2f2f2;
+}
+.cidade_rodape{
+    width: 100%;
+}
+.display_footer{
+    height: 110px;
+    display: flex;
+}
+.botao_entrar { /* Botão animado, para login e cadastro, é um código open source */
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .botao_entrar:hover {
+    background-color:#05466C;
+    box-shadow: 0px 15px 20px rgba(11, 118, 180, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .botao_entrar:active {
+    transform: translateY(-1px);
+  }

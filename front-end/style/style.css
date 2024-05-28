@@ -4,7 +4,7 @@ body{
 .barra-navegacao{
     align-items: center;
     width: 100%;
-    background-color: rgb(32, 108, 223);
+    background-color: #05466c;
     color: white;
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
@@ -120,7 +120,7 @@ body{
     align-items: center;
     width: 300px;
     height: 60px;
-    background-color: rgb(32, 108, 223);
+    background-color: #05466c;;
     color: white;
     display: inline-block; 
 }
@@ -162,11 +162,11 @@ body{
     margin: 0% 5% 0% 5%;
 }
 
-.deixarFundoVermelho{
+.FundoVermelho{
     text-align: center;
     margin-top: 10%;
     height: 120px;
-    background-color: #F86D6D;
+    background-color: #e53b2a;
 }
 
 .icones{
@@ -208,6 +208,7 @@ body{
 }
 
 .deixarEmNegrito{
+    color: #EFEFEF;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
@@ -224,11 +225,11 @@ body{
     right: 23%;   
 }
 
-.deixarFundoAmarelo{
+.FundoAmarelo{
     text-align: center;
     margin-top: 17%;
     height: 120px;
-    background-color: #FFCC00;
+    background-color: #fabe27;
 }
 
 #tamanhoImagem2{
@@ -242,11 +243,11 @@ body{
     right: 22%;  
 }
 
-.deixarFundoVerde{
+.FundoVerde{
     text-align: center;
     margin-top: 17%;
     height: 120px;
-    background-color: #5EDC46;
+    background-color: #027551;
 }
 
 #tamanhoImagem3{
@@ -259,12 +260,12 @@ body{
     top: -70%;
     right: 22%;  
 }
-#absoluta{
+#aba-menu{
     width: 75%;
     height: 122%;
     position: absolute;
     top:0.1%;
-    background-color: rgb(32, 108, 223);
+    background-color:#05466c;;
 }
 .texto-menu-select{
     font-weight: bold;
@@ -296,7 +297,7 @@ body{
 #barrazul-menu{
     align-items: center;
     width: 100%;
-    background-color: rgb(32, 108, 223);
+    background-color: #05466c;;
     color: white;
     display: flex;
 }

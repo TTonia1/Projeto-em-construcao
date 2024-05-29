@@ -7,8 +7,7 @@
         <link rel="stylesheet" href="../style/style.css" />
         <title>Tela de Início EPTRAN</title>
     </head>
-
-    <body id="body">
+    <body>
         <div class="barra_navegacao">
             <img class="imagem_tres_barras" src="../imagens/menu.png">
             <p> Início</p>
@@ -19,40 +18,32 @@
             <img class="usuario_branco" src="../imagens/user.png">
             <img class="engrenagem" src="../imagens/gear.png">
         </div>
-        <header> 
-            <img class="fundo_cinza" src= "../imagens/capa.jpg">
-            <div class="posicao_cabecalho"> 
-                <p class="titulo_cabecalho"> BEM-VINDO AO EPTRAN! </p>
-            </div>
-        </header>
+        <div class="fundo_cinza"><!--Fundo desproporcional-->
+            <p id="titulo_cabecalho">BEM-VINDO AO EPTRAN</p>
         </div>
-        <div class="texto_introducao">
+        <div id="texto_introducao">
             <p> O Eptran (Escola Pública de Trânsito) é o órgão responsável pela realização de campanhas, palestras, ações e projetos educacionais ligados à segurança e mobilidade no trânsito. </p>
-            <p> Nosso objetivo com esta aplicação é, juntamente ao Departamento de Trânsito (DETRAN) e a Prefeitura Municipal de Joinville, levar conhecimento para mudar valores, comportamentos e atitudes. </p>
         </div>
         <div class="fundo_vermelho">
-            <div class="todo_textodaDiv"> 
-                <p class="deixar_negrito"> Séries iniciais </p>
-                <p class="deixar_negrito"> (1º ao 5º ano) </p> </div>
-            <div id="posicao_imagem1"> <img id="tamanho_imagem1" src="../imagens/pare.png" ></div><!--Revisar os tamanhos, tentar não usar position-->
+            <img class="placas" src="../imagens/pare.png" >
+            <div class="series_branco">
+                <p>Séries iniciais</p>
+                <p>(1º ao 5º ano)</p>
+            </div> 
         </div>
         <div class="fundo_amarelo">
-            <div class="todo_textodaDiv"> 
-                <p> Séries finais </p>
-                <p> (5º ao 9º ano) </p> 
-            </div>
-            <div id="posicao_imagem2"> <!--Revisar os tamanhos, tentar não usar position-->
-                <img id="tamanho_imagem2" src="../imagens/cicli.png" >
-            </div>
+            <img src="../imagens/cicli.png"><!--Imagem mal recortada-->
+            <div>
+                <p>Séries finais</p>
+                <p>(6º ao 9º ano)</p>
+            </div> 
         </div>
         <div class="fundo_verde">
-            <div class="todo_textodaDiv">  
-                <p class="deixar_negrito"> Ensino Médio </p>
-                <p class="deixar_negrito"> (1º ao 3º ano) </p> 
-            </div>
-            <div id="posicao_imagem3"> <!--Revisar os tamanhos, tentar não usar position-->
-                <img id="tamanho_imagem3" src="../imagens/youareateptran.png" >
-            </div>
+            <img class="placas" src="../imagens/youareateptran.png"> <!--Imagem mal recortada-->
+            <div class="series_branco">
+                <p>Ensino Médio</p>
+                <p>(1º ao 3º ano) </p>
+            </div> 
         </div>
         <footer class="rodape">
             <div>
@@ -63,6 +54,5 @@
                 <img class="logo_projeto" src="../imagens/logo_eptran.png">
             </div>
         </footer>
-    </body>
-    
+    </body> 
 </html>

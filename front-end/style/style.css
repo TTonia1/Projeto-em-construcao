@@ -138,14 +138,14 @@ body{
 .fundo_cinza{
     height: 135px;
     width: 100%;
-    position: relative;
+    background-image: url("../imagens/capa.jpg");
+    background-repeat: no-repeat;
 }
-
-.titulo_cabecalho{
+#titulo_cabecalho{
+    text-align: center;
     font-family: Kanit-bold;
     font-size: 150%;
 }
-
 @font-face {
     font-family: Kanit-bold;
     src: url(../style/Kanit-Bold.ttf);
@@ -155,26 +155,17 @@ body{
     font-family: Kanit;
     src: url(../style/Kanit-Regular.ttf);
 }
-
-.posicao_cabecalho{
-    position: absolute;
-    top: 9%;
-    left: 16%;
-}
-
-.texto_introducao{
+#texto_introducao{
     font-family: kanit;
     text-align: center;
     margin: 0% 5% 0% 5%;
 }
-
 .fundo_vermelho{
-    text-align: center;
     margin-top: 10%;
     height: 120px;
     background-color: #e53b2a;
+    display: flex;
 }
-
 .icones{
     width: 20px;
     height: 20px;
@@ -256,65 +247,17 @@ body{
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;   
 }
-.todo_textoDaDiv{
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 22%;
-    left: 23%;
-}
-
-.deixar_negrito{
-    color: #EFEFEF;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
-}
-
-#tamanho_imagem1{
-    width: 40%;
-    height: auto;
-}
-
-#posicao_imagem1{
-    position: relative;
-    top: -85%;
-    right: 23%;   
-}
-
 .fundo_amarelo{
-    text-align: center;
+    display: flex;
     margin-top: 17%;
     height: 120px;
     background-color: #fabe27;
 }
-
-#tamanho_magem2{
-    width: 70%;
-    height: auto;
-}
-
-#posicao_imagem2{
-    position: relative;
-    top: -83%;
-    right: 22%;  
-}
-
 .fundo_verde{
-    text-align: center;
+    display: flex;
     margin-top: 17%;
     height: 120px;
     background-color: #027551;
-}
-
-#tamanho_imagem3{
-    width: 50%;
-    height: auto;
-}
-
-#posicao_imagem3{
-    position: relative;
-    top: -70%;
-    right: 22%;  
 }
 #aba_menu{
     width: 75%;
@@ -523,4 +466,12 @@ body{
     align-items: center;
     align-content: center;
     padding: 20px;
+}
+.placas{
+    height: 120%;
+    padding-left: 2%;
+}
+.series_branco{
+    text-align: center;
+    color: white;
 }

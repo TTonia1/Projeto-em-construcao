@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/style.css"/>
+    <script src="../scripts/script.js"></script>
     <title>Entrar no EPTRAN</title>
 </head>
 <body>
@@ -26,13 +27,13 @@
                 <input id="campo_usuario" placeholder="Usuário">
             </div>
             <div class="espacamento_login">
-                <input placeholder="Senha" id="campo_senha">
+                <input type="text" placeholder="Senha" id="campo_senha">
                 <div class="textos_azuis">
                     <p>Esqueceu a senha?</p>
                 </div>
             </div>
             <div>
-                <button class="botao_entrar">Logar</button>
+                <button class="botao_entrar" onclick="logar()">Logar</button>
             </div>
             <div class="textos_azuis">
                 <p>Não tem conta?</p> <!-- Textos links para fazer cadastro -->

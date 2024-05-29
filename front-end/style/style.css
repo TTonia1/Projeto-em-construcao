@@ -404,3 +404,123 @@ body{
   .botao_entrar:active {
     transform: translateY(-1px);
   }
+
+  #fundo_azul_capa{
+    background-color: #05466C;
+    font-family: Kanit;
+  }
+
+  .centro_eptran_capa{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 20px;
+  }
+
+  .texto_capa_aprender_trânsito{
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+  #cor_verde_capa_idade{
+    color: #45b05d;
+    font-size: 20px;
+  }
+  .texto_dois_capa{
+    color: white;
+    font-size: 20px;
+  }
+  .texto_lado_a_lado{
+    justify-content: right; /*Justify-content pega todo o conteúdo dentro de uma display flex e consegue deslocar para qualquer direção*/
+    padding-right: 35px ;
+    display: flex;
+    color: white;
+    height: 25px;
+  }
+
+  .cor_amarela_capa_aprender{
+    color: #EEC744;
+    font-size: 20px;
+  }
+  .texto_lado_a_lado_dois{
+    justify-content: right; 
+    padding-right: 25px ;
+    display: flex;
+    color: white;
+    height: 25px;
+  }
+  .cor_vermelho_capa_texto{
+    color: #F97171;
+    text-align: right;
+    font-size: 20px;
+  }
+  .texto_lado_a_lado_tres{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+  }
+  .ponto_final_capa{
+    color: white;
+    font-size: 20px;
+  }
+  #circulo_capa_da_foca{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 40px 40px 50px;
+  }
+  #centralizar_div_capa{
+    width: 100%;
+    padding-top: 30px;
+    display: flex; 
+    justify-content: center; /*alinha a div filha no centro horizontal */
+    align-items: center; /* alinha a div filha no centro vertical */
+}
+
+.botao_entrar_capa{ 
+    background-color:#000000; 
+    color:#fff; 
+    box-shadow:0 6px 0 #ffffff;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.botao_entrar_capa:hover{ 
+    background:#000000; 
+    box-shadow:0 6px 0 #ffffff;
+}
+.botao_entrar_capa:active{ 
+    background:#000000; box-shadow: 0 0px 0 #000000; transform: translateY(6px); 
+}
+
+.botao_cadastrar_capa{ 
+    background-color:#979797; 
+    color:#fff; 
+    box-shadow:0 6px 0 #ffffff;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.botao_cadastrar_capa:hover{ 
+    background:#979797; 
+    box-shadow:0 6px 0 #ffffff;
+}
+.botao_cadastrar_capa:active{ 
+    background:#979797; 
+    box-shadow: 0 0px 0 #979797; 
+    transform: translateY(6px); 
+}
+#centralizar_botao_capa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}

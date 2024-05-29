@@ -110,17 +110,23 @@ body{
     padding-left: 10px;
     padding-bottom: 5px;
 }
-.div_centralizada{
+.div_centralizada_cadastro{
     text-align: center;
     width: 300px;
-    height: 400px;
+    height: 440px;
+    background-color: #EFEFEF;
+}
+.div_centralizada_login{
+    text-align: center;
+    width: 300px;
+    height: 380px;
     background-color: #EFEFEF;
 }
 .barrazul_entrar{ /*fundo do titulo cadastro e login*/
     align-items: center;
     width: 300px;
     height: 60px;
-    background-color: #05466c;;
+    background-color: #05466c;
     color: white;
     display: inline-block; 
 }
@@ -174,9 +180,14 @@ body{
     height: 20px;
 }
 .espacamento_login{
-    margin-top: 20%;
+    margin-top: 15%;
+}
+.espacamento_cadastro{
+    margin-top: 7%;
+    margin-bottom: 5%;
 }
 .textos_azuis{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(32, 108, 223);
 }
 .logo_prefeitura{
@@ -190,12 +201,61 @@ body{
     width: 150px;
     height: 90px;
 }
-.campo_registro{
-    border-radius: 10px;
-    border-color: gray;
-    border-width: 1px;
+#campo_usuario{
+    background-image: url(../imagens/user.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #8f8f8f 0px 10px 10px -5px;
+    padding-left: 22px;
 }
-
+#campo_senha{
+    background-image: url(../imagens/cadeado.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #8f8f8f 0px 10px 10px -5px;
+    padding-left: 22px;   
+}
+#campo_cidade{
+    background-image: url(../imagens/localizador-de-mapa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #8f8f8f 0px 10px 10px -5px;
+    padding-left: 22px;   
+}
+#campo_email{
+    background-image: url(../imagens/e-mail.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #8f8f8f 0px 10px 10px -5px;
+    padding-left: 22px;   
+}
+#campo_escolaridade{
+    background-image: url(../imagens/graduate-cap.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:20px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #8f8f8f 0px 10px 10px -5px;
+    padding-left: 22px;   
+}
 .todo_textoDaDiv{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;

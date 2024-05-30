@@ -1,8 +1,8 @@
-function logar(){
-    let input_usuario = document.getElementById("campo_usuario")
-    let input_senha = document.getElementById("campo_senha")
-    let usuario = input_usuario.value
-    let senha = input_senha.value 
+function logar(){ //validação do login
+    let inputUsuario = document.getElementById("campo_usuario")
+    let inputSenha = document.getElementById("campo_senha")
+    let usuario = inputUsuario.value
+    let senha = inputSenha.value 
     if (usuario == "adm"){
         if (senha == "123"){
             window.location.replace("../estrutura/inicio.html") // window.locate.replace(link) -> redireciona o usuário para outra página.
@@ -13,3 +13,7 @@ function logar(){
         console.log("Usuário incorreto")
     }
 };
+
+function recuperarSenha(){
+    window.alert("Recuperar senha, funcionando.")
+}

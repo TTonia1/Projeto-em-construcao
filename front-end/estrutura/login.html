@@ -11,12 +11,12 @@
     <div class="barra_navegacao">
         <img class="imagem_tres_barras" src="../imagens/menu.png">
         <p> Início</p>
-        <img class="imagem_maior_que" src="../imagens/maior-que.png">
+        <img class="imagem_maior_que" src="../imagens/maior_que.png">
         <p>EPTRAN</p>
-        <img class="imagem_maior_que" src="../imagens/maior-que.png">
-        <p>Início</p>
-        <img class="usuario_branco" src="../imagens/user.png">
-        <img class="engrenagem" src="../imagens/gear.png">
+        <img class="imagem_maior_que" src="../imagens/maior_que.png">
+        <p>Login</p>
+        <img class="usuario_branco" src="../imagens/usuario.png">
+        <img class="engrenagem" src="../imagens/engrenagem.png">
     </div>
     <div class="centralizar_div">
         <div class="div_centralizada_login">
@@ -28,15 +28,15 @@
             </div>
             <div class="espacamento_login">
                 <input type="text" placeholder="Senha" id="campo_senha">
-                <div class="textos_azuis">
-                    <p>Esqueceu a senha?</p>
+                <div class="espacamento_links">
+                    <a class="textos_azuis" onclick="recuperarSenha()">Esqueceu a senha?</a> <!-- Essa tag vai pra quando o usuário esquecer a senha -->
                 </div>
             </div>
             <div>
                 <button class="botao_entrar" onclick="logar()">Logar</button>
             </div>
-            <div class="textos_azuis">
-                <p>Não tem conta?</p> <!-- Textos links para fazer cadastro -->
+            <div class="espacamento_links">
+                <a class="textos_azuis" href="cadastro.html">Não tem conta?</a> <!-- Quando o usuário n tem conta, clica aqui e vai pro cadastro. -->
             </div>
         </div>
     </div>

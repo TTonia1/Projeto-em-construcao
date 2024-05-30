@@ -177,7 +177,12 @@ body{
     margin-top: 7%;
     margin-bottom: 5%;
 }
+.espacamento_links{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 .textos_azuis{
+    text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(32, 108, 223);
 }
@@ -193,7 +198,7 @@ body{
     height: 90px;
 }
 #campo_usuario{
-    background-image: url(../imagens/user.png);
+    background-image: url(../imagens/usuario.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
@@ -215,7 +220,7 @@ body{
     padding-left: 22px;   
 }
 #campo_cidade{
-    background-image: url(../imagens/localizador-de-mapa.png);
+    background-image: url(../imagens/localizador_de_mapa.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
@@ -237,7 +242,7 @@ body{
     padding-left: 22px;   
 }
 #campo_escolaridade{
-    background-image: url(../imagens/graduate-cap.png);
+    background-image: url(../imagens/graduacao.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;

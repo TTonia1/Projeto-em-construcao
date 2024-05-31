@@ -8,12 +8,22 @@ function logar(){ //validação do login
             window.location.replace("../estrutura/inicio.html") // window.locate.replace(link) -> redireciona o usuário para outra página.
         } else {
             console.log("Senha incorreta")
+            window.alert("Um dos campos está incorreto.")
         }
     } else {
         console.log("Usuário incorreto")
+        window.alert("Um dos campos está incorreto.")
     }
 };
 
 function recuperarSenha(){
-    window.alert("Recuperar senha, funcionando.")
+    window.alert("Recuperar senha: Funcionando.")
+};
+
+function site_login(){
+    window.location.replace("../estrutura/login.html")
+};
+
+function site_cadastro(){
+    window.location.replace("../estrutura/cadastro.html")
 }

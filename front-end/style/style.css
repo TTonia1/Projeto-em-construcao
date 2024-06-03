@@ -113,16 +113,18 @@ body{
 .div_centralizada_cadastro{
     text-align: center;
     width: 300px;
-    height: 440px;
+    height: 480px;
     background-color: #EFEFEF;
 }
 .div_centralizada_login{
+    border-radius: 10px;
     text-align: center;
     width: 300px;
     height: 380px;
     background-color: #EFEFEF;
 }
 .barrazul_entrar{ /*fundo do titulo cadastro e login*/
+    border-radius: 10px 10px 0 0;
     align-items: center;
     width: 300px;
     height: 60px;
@@ -202,8 +204,8 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;
@@ -213,8 +215,8 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;   
@@ -224,8 +226,8 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;   
@@ -235,19 +237,20 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;   
 }
 #campo_escolaridade{
+    width: 193px;
     background-image: url(../imagens/graduacao.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size:20px;
-    height: 30px;
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 10px;
     border: none;
     box-shadow: #8f8f8f 0px 10px 10px -5px;
     padding-left: 22px;   
@@ -429,7 +432,8 @@ body{
     align-items: center; /* alinha a div filha no centro vertical */
 }
 
-.botao_entrar_capa{ 
+.botao_entrar_capa{
+    width: 167.36px;
     background-color:#000000; 
     color:#fff; 
     box-shadow:0 6px 0 #ffffff;

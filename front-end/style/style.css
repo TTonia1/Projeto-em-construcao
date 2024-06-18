@@ -360,8 +360,13 @@ body{
   .centro_eptran_capa{
     color: white;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     font-size: 30px;
-    font-weight: 20px;
+    font-weight: bold;
+    margin-top: 15%;
+    margin-left: 1%;
   }
 
   .texto_capa_aprender_trânsito{
@@ -412,13 +417,14 @@ body{
     font-size: 20px;
   }
   #circulo_capa_da_foca{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
     background-color: white;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 40px 40px 50px;
+    margin-bottom: 7%;
   }
   #centralizar_div_capa{
     width: 100%;

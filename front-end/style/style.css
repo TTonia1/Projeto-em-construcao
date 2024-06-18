@@ -523,4 +523,23 @@ body{
     background-color: #f2f2f2;
     width: 100%;
     height: 480px;
+    text-align: center;
+}
+
+#usuario_branco_series{
+    padding-left: 5%;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#menina_pensativa{
+    width: 200px;
+    height: 200px;
+    padding-right: 500px;
+}
+
+#ideia{
+    width: 80px;
+    height: 100px;
 }

@@ -344,8 +344,6 @@ body{
 }
 .cidade_rodape{
     width: 100%;
-    position: fixed;
-    z-index: -3;
 }
 .display_footer{
     height: 110px;
@@ -537,4 +535,10 @@ body{
     padding-left: 10%;
     position: relative;
     bottom: 10px;
+}
+#usuario_branco_7erros_ajustar{
+    padding-left: 28px;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
 }

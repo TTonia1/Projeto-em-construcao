@@ -25,7 +25,7 @@ body{
     height: 15px;
 }
 .usuario_branco{
-    padding-left: 90px;
+    padding-left: 155px;
     width: 20px;
     height: 20px;
     filter: invert(100%);
@@ -143,6 +143,14 @@ body{
     background-image: url("../imagens/capa.jpg");
     background-repeat: no-repeat;
 }
+#capa_inicio{
+    height: 120px;
+    display: flex;
+    background-image: url(../imagens/capa.jpg);
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 #titulo_cabecalho{
     text-align: center;
     font-family: Kanit-bold;
@@ -162,11 +170,16 @@ body{
     text-align: center;
     margin: 0% 5% 0% 5%;
 }
+#introducao_texto_2{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
 .fundo_vermelho{
-    margin-top: 10%;
-    height: 120px;
+    height: 110px;
     background-color: #e53b2a;
     display: flex;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 .icones{
     width: 20px;
@@ -257,22 +270,23 @@ body{
 }
 .fundo_amarelo{
     display: flex;
-    margin-top: 17%;
+    margin-bottom: 10%;
     height: 120px;
     background-color: #fabe27;
+    margin-top: 10%;
 }
 .fundo_verde{
     display: flex;
-    margin-top: 17%;
     height: 120px;
     background-color: #027551;
 }
 #aba_menu{
     width: 75%;
-    height: 122%;
+    height: 124%;
     position: absolute;
     top:0.1%;
     background-color:#05466c;
+    margin-bottom: 10px;
 }
 .texto_menu_select{
     font-weight: bold;
@@ -324,6 +338,8 @@ body{
 }
 .cidade_rodape{
     width: 100%;
+    position: fixed;
+    z-index: -3;
 }
 .display_footer{
     height: 110px;
@@ -479,8 +495,16 @@ body{
 .placas{
     height: 120%;
     padding-left: 2%;
+    position: relative;
+    bottom: 10px;
 }
 .series_branco{
     text-align: center;
     color: white;
+}
+#placa_ciclista{
+    height: 180px;
+    width: auto;
+    position: relative;
+    bottom: 25px;
 }

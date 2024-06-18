@@ -338,8 +338,6 @@ body{
 }
 .cidade_rodape{
     width: 100%;
-    position: fixed;
-    z-index: -3;
 }
 .display_footer{
     height: 110px;

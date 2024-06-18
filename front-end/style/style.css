@@ -556,12 +556,17 @@ body{
 }
 
 .jogo_cinza{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
     background-color: #f2f2f2;
     width: 100%;
     height: 480px;
     text-align: center; /* alinha horizontalmente */
 }
-
+.subtitulo_jogos{
+    font-size: 18px;
+}
 #usuario_branco_series{
     padding-left: 5%;
     width: 20px;
@@ -571,9 +576,8 @@ body{
 
 #menina_pensativa{
     width: 200px;
-    height: 200px;
+    height: 186px;
     padding-right: 500px;
-    padding-top: 45px;
 }
 #ideia{
     width: 80px;
@@ -583,7 +587,7 @@ body{
 .botao_ensino_medio{
     display: flex;
     justify-content: center;
-    padding-top: 25%;
+    padding-top: 13%;
 }
 #imagens_jogo_ensino_medio{
     display: flex;

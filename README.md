@@ -6,7 +6,8 @@
 <h2  align="center">Divisão de tarefas</h2>
 <li>✔️ Cadastro: Antônia Kiatkoski </li>
 <li>✔️ Login:    Gustavo Floriano </li>
-<li>✔️ Inicio:   Isabel Damasio </li>
-<li>✔️ Menu:     Isabel Damasio </li>
-<li>✔️ Jogo:     Vitor da Cunha </li>
-<li>✔️ Animação: Vitor da Cunha </li>
+<li>✔️ Inicio:   Vitor Hugo da Cunha e Isabel </li>
+<li>✔️ Menu:      </li>
+<li>✔️ Jogo da memória:     Gustavo Floriano </li>
+<li>✔️ Jogo dos sete erros: Isabel Damásio </li>
+<li>✔️ Jogo das escolhas: Antônia Kiatkoski </li>

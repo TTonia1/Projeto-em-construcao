@@ -30,13 +30,6 @@ body{
     height: 20px;
     filter: invert(100%);
 }
-
-#usuario_branco_series{
-    padding-left: 5%;
-    width: 20px;
-    height: 20px;
-    filter: invert(100%);
-}
 .usuario_branco_login{
     padding-left: 150px;
     width: 20px;
@@ -327,8 +320,6 @@ body{
 }
 .cidade_rodape{
     width: 100%;
-    position: fixed;
-    z-index: -3;
 }
 .display_footer{
     height: 110px;
@@ -483,19 +474,49 @@ body{
 }
 .placas{
     height: 120%;
-    padding-left: 2%;
+    padding-left: 10%;
     position: relative;
     bottom: 10px;
 }
 .series_branco{
     text-align: center;
     color: white;
+    padding-left: 60px;
 }
 #placa_ciclista{
-    height: 180px;
+    height: 200px;
     width: auto;
     position: relative;
-    bottom: 25px;
+    bottom: 40px;
+    padding-left: 30px;
+}
+.series_branco_vermelho{
+    text-align: center;
+    color: white;
+    padding-left: 60px;
+    padding-top: 8px;
+    padding-left: 110px;
+}
+.series_branco_amarelo{
+    text-align: center;
+    color: white;
+    padding-left: 60px;
+    padding-top: 8px;
+    padding-left: 55px;
+    color: black;
+    font-weight: bold;
+}
+.placa_voce_esta_no_eptran{
+    height: 140px;
+    padding-left: 10%;
+    position: relative;
+    bottom: 10px;
+}
+#usuario_branco_7erros_ajustar{
+    padding-left: 28px;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
 }
 
 .jogo_cinza{

@@ -1,6 +1,32 @@
+@font-face {
+    font-family: roboto-black;
+    src: url(../style/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../style/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: kanit;
+    src: url(Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kanit-bold;
+    src: url(../style/Kanit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(../style/Kanit-Regular.ttf);
+}
+
 body{
     margin: 0;
 }
+
 .barra_navegacao{
     align-items: center;
     width: 100%;
@@ -88,10 +114,6 @@ body{
     padding-right: 10px;
 }
 
-@font-face {
-    font-family: kanit;
-    src: url(Kanit-Regular.ttf);
-}
 .tamanho_ideal_expandir{
     height: 40px;
     width: 40px;
@@ -149,15 +171,6 @@ body{
     text-align: center;
     font-family: Kanit-bold;
     font-size: 150%;
-}
-@font-face {
-    font-family: Kanit-bold;
-    src: url(../style/Kanit-Bold.ttf);
-}
-
-@font-face {
-    font-family: Kanit;
-    src: url(../style/Kanit-Regular.ttf);
 }
 #texto_introducao{
     font-family: kanit;
@@ -566,3 +579,32 @@ body{
     width: 80px;
     height: 100px;
 }
+
+#fundoCinzaJogoSF{
+    width: 2000px;
+    background-color: #f2f2f2;
+    height: 550px;
+    border-radius: 3%;
+}
+
+#tituloEsubtitulo{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#tituloSF{
+    font-family: roboto-black;
+    word-break: normal;
+    font-size: 27px;
+}
+
+#subtituloSF{
+    margin: 1%;
+    font-family: roboto;
+}
+
+#mulherMedrosa{
+    width: 200px;
+    height: auto;
+}
+

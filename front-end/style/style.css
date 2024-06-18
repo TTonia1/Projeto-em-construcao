@@ -631,5 +631,11 @@ body{
 #mulherMedrosa{
     width: 200px;
     height: auto;
+    margin-top: 56%;
 }
 
+
+#atencao{
+    width: 150px;
+    height: auto;
+}

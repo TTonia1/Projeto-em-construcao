@@ -666,3 +666,8 @@ body{
     align-items: center;
     display: flex;
 }
+
+.inicio_botao{
+    color: white;
+    text-decoration: none;
+}

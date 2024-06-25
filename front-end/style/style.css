@@ -671,3 +671,42 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.jogo_azul{
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    background-color:  #05466C;
+    border-radius: 30px;
+    width: 94%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.imagem_quiz{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.deixar_lado{
+    display: flex;
+    padding-left: 3%;
+}
+
+.imagem_jogo{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.imagens_eptran{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+}

@@ -674,3 +674,94 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.fundo_azul_jogos{
+    background-color: #05466B;
+    width: 90%;
+    height: 25%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 18px;
+}
+
+#sete_erros_capa{
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+.titulo_jogos_SF{
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7%;
+}
+
+.canto_direito_SF{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.jogo_azul{
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    background-color:  #05466C;
+    border-radius: 30px;
+    width: 94%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.imagem_quiz{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.deixar_lado{
+    display: flex;
+    padding-left: 3%;
+}
+
+.imagem_jogo{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.imagens_eptran{
+    width: 200px;
+    height: auto ;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+#quiz_capa{
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+    margin-right: 3%;
+}
+
+.fundo_cinza_infos_SF{
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+}
+
+#infos{
+    font-family: roboto-black;
+    font-size: 27px;
+    margin-left: 5%;
+}

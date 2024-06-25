@@ -635,20 +635,6 @@ body{
     font-family: roboto;
 }
 
-#mulher_medrosa{
-    width: 200px;
-    height: auto;
-    margin-top: 10%;
-}
-
-
-#atencao_SF{
-    width: 150px;
-    height: auto;
-    margin-left: 15%;
-    margin-bottom: 20%;
-}
-
 .botao_SF{
     display: flex;
     justify-content: center;
@@ -670,4 +656,37 @@ body{
 .inicio_botao{
     color: white;
     text-decoration: none;
+}
+
+.fundo_azul_sete_erros{
+    background-color: #05466B;
+    width: 90%;
+    height: 25%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 18px;
+}
+
+#sete_erros_capa{
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 3%;
+}
+
+.titulo_7_erros{
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7%;
+}
+
+.canto_direito_SF{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
 }

@@ -28,6 +28,8 @@ body{
 }
 
 .barra_navegacao{
+    justify-content: space-between;
+    display: flex;
     align-items: center;
     width: 100%;
     background-color: #05466c;
@@ -51,7 +53,6 @@ body{
     height: 15px;
 }
 .usuario_branco{
-    padding-left: 90px;
     width: 20px;
     height: 20px;
     filter: invert(100%);
@@ -160,11 +161,12 @@ body{
     background-repeat: no-repeat;
 }
 #capa_inicio{
+    width: 100%;
     height: 120px;
     display: flex;
     background-image: url(../imagens/capa.jpg);
-    justify-content: center;
-    flex-wrap: nowrap;
+    background-repeat:round;
+    justify-content: center;    
     align-items: center;
 }
 #titulo_cabecalho{
@@ -348,7 +350,7 @@ body{
     width: 100%;
 }
 .display_footer{
-    height: 110px;
+    height: 120px;
     display: flex;
 }
 .botao_entrar { /* Botão animado, para login e cadastro, é um código open source  retirado do site: uiverse*/
@@ -566,19 +568,24 @@ body{
     bottom: 10px;
 }
 #usuario_branco_7erros_ajustar{
-    padding-left: 28px;
+    padding-left: 105px;
     width: 20px;
     height: 20px;
     filter: invert(100%);
 }
 
 .jogo_cinza{
+    font-size: 30px;
+    font-family: roboto;
     background-color: #f2f2f2;
     width: 100%;
     height: 480px;
     text-align: center; /* alinha horizontalmente */
 }
-
+.subtitulo_jogos{
+    font-size: 18px;
+    font-family: roboto;
+}
 #usuario_branco_series{
     padding-left: 5%;
     width: 20px;
@@ -587,10 +594,10 @@ body{
 }
 
 #menina_pensativa{
-    width: 200px;
-    height: 200px;
+    padding-top: 10px;
+    width: 175px;
+    height: 190px;
     padding-right: 500px;
-    padding-top: 45px;
 }
 #ideia{
     width: 80px;
@@ -600,14 +607,14 @@ body{
 .botao_ensino_medio{
     display: flex;
     justify-content: center;
-    padding-top: 25%;
+    padding-top: 13%;
 }
 #imagens_jogo_ensino_medio{
     display: flex;
 }
 #homem_escolhendo{
-    padding-top: 42px;
-    width: 200px;
+    padding-top: 12%;
+    width: 170px;
     height: 200px;
 
 }
@@ -622,31 +629,62 @@ body{
     height: 100px;
 }
 
-#fundoCinzaJogoSF{
+#fundo_cinza_jogo_SF{
     width: 2000px;
     background-color: #f2f2f2;
     height: 550px;
     border-radius: 3%;
 }
 
-#tituloEsubtitulo{
+#titulo_e_subtitulo{
     text-align: center;
     margin-top: 5%;
 }
 
-#tituloSF{
+#titulo_SF{
     font-family: roboto-black;
     word-break: normal;
     font-size: 27px;
 }
 
-#subtituloSF{
+#subtitulo_SF{
     margin: 1%;
     font-family: roboto;
 }
 
-#mulherMedrosa{
+#mulher_medrosa{
     width: 200px;
     height: auto;
+    margin-top: 10%;
 }
 
+
+#atencao_SF{
+    width: 150px;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 20%;
+}
+
+.botao_SF{
+    display: flex;
+    justify-content: center;
+    padding-top: 35%;
+}
+
+.links_barra{
+    color: white;
+    text-decoration: none;
+}
+.icones_direita{
+    padding-right: 3%;
+}
+.elementos_esquerda{
+    align-items: center;
+    display: flex;
+}
+
+.inicio_botao{
+    color: white;
+    text-decoration: none;
+}

@@ -27,3 +27,9 @@ function site_login(){
 function site_cadastro(){
     window.location.replace("../estrutura/cadastro.html")
 }
+
+let icone = document.getElementsByClassName("imagem_tres_barras")[0];
+
+icone.addEventListener("click", function(){
+    window.location.replace("../estrutura/menu.html")
+})

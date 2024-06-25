@@ -8,20 +8,22 @@
 </head>
 <body>
     <div class="barra_navegacao">
-        <img class="imagem_tres_barras" src="../imagens/menu.png">
-        <p> Início</p>
-        <img class="imagem_maior_que" src="../imagens/maior_que.png">
-        <p>EPTRAN</p>
-        <img class="imagem_maior_que" src="../imagens/maior_que.png">
-        <p>Ensino Médio</p>
-        <img id="usuario_branco_ensino_medio" src="../imagens/usuario.png">
-        <img class="engrenagem" src="../imagens/engrenagem.png">
+        <div class="elementos_esquerda">
+            <img class="imagem_tres_barras" src="../imagens/menu.png">
+            <a class="inicio_botao" href="inicio.html"> Início </a href="inicio.html">
+            <img class="imagem_maior_que" src="../imagens/maior_que.png">
+            <p>Ensino Médio</p>
+        </div>
+        <div class="icones_direita">
+            <img class="usuario_branco" src="../imagens/usuario.png">
+            <img class="engrenagem" src="../imagens/engrenagem.png">
+        </div>
     </div>
     <section>
         <div class="centralizar_div">
             <div class="jogo_cinza">
-                <p> JOGO DAS ESCOLHAS</p>
-                <p> Controle sua vida no trânsito!</p>
+                <p id="titulo_SF"> JOGO DAS ESCOLHAS</p>
+                <p class="subtitulo_jogos"> Controle sua vida no trânsito!</p>
                 <div class="botao_ensino_medio">
                     <button class="botao_entrar">JOGAR</button>
                 </div>
@@ -33,5 +35,13 @@
             </div>
         </div>
     </section>
+    <footer class="rodape">
+        <img class="cidade_rodape" src="../imagens/cidade_rodape_Iphone14.png">
+        <div class="display_footer">
+            <img class="logo_prefeitura" src="../imagens/Prefeitura.png">
+            <img class="logo_projeto" src="../imagens/logo_eptran.png">
+        </div>
+    </footer>
 </body>
+<script src="../scripts/script.js"></script> 
 </html>

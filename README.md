@@ -7,7 +7,7 @@
 <li>✔️ Cadastro: Antônia Kiatkoski </li>
 <li>✔️ Login:    Gustavo Floriano </li>
 <li>✔️ Inicio:   Vitor Hugo da Cunha e Isabel </li>
-<li>✔️ Menu:      </li>
+<li>✔️ Menu: Gustavo Floriano </li>
 <li>✔️ Jogo da memória:     Gustavo Floriano </li>
 <li>✔️ Jogo dos sete erros: Isabel Damásio </li>
 <li>✔️ Jogo das escolhas: Antônia Kiatkoski </li>

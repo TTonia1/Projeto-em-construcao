@@ -29,7 +29,15 @@ function site_cadastro(){
 }
 
 let icone = document.getElementsByClassName("imagem_tres_barras")[0];
+let menu = document.getElementById("aba_menu");
+let confereMenu = false;
 
 icone.addEventListener("click", function(){
-    window.location.replace("../estrutura/menu.html")
-})
+    if (menu.style.display == "block"){
+        menu.style.display = "none"
+        console.log("Abrir")
+    } else {
+        menu.style.display = "block"
+        console.log("Fechar")
+    }
+});

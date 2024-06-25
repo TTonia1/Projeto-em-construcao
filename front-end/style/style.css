@@ -291,8 +291,9 @@ body{
     background-color: #027551;
 }
 #aba_menu{
+    display: none;
     width: 75%;
-    height: 124%;
+    height: 104%;
     position: absolute;
     top:0.1%;
     background-color:#05466c;

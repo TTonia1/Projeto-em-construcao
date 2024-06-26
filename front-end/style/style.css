@@ -635,13 +635,13 @@ body{
 #fundo_cinza_jogo_SF{
     width: 2000px;
     background-color: #f2f2f2;
-    height: 550px;
-    border-radius: 3%;
+    height: auto;
+    border-radius: 10px;
 }
 
 #titulo_e_subtitulo{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 #titulo_SF{
@@ -766,7 +766,7 @@ body{
 }
 
 #infos{
-    padding-top: 5%;
+    padding-top: 10%;
     font-family: roboto-black;
     font-size: 27px;
     margin-left: 5%;
@@ -795,5 +795,9 @@ body{
     justify-content: center;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+.jogos_SF{
+    margin-bottom: 15%;
 }
 

@@ -39,6 +39,7 @@ body{
     font-weight: bold;
 }
 .imagem_tres_barras{
+    z-index: +1;
     filter: invert(100%) ;
     padding-left: 20px;
     padding-right: 15px;
@@ -310,6 +311,7 @@ body{
     color: rgb(199, 194, 194);
 }
 .menu_suspenso{
+    margin-top: 20%;
     margin-left: 20%;
 }
 #barra_menu{

@@ -30,14 +30,17 @@ function site_cadastro(){
 
 let icone = document.getElementsByClassName("imagem_tres_barras")[0];
 let menu = document.getElementById("aba_menu");
-let confereMenu = false;
 
-icone.addEventListener("click", function(){
+icone.addEventListener("click", function(){ // evento de abrir ou fechar o menu
     if (menu.style.display == "block"){
         menu.style.display = "none"
-        console.log("Abrir")
     } else {
         menu.style.display = "block"
-        console.log("Fechar")
+    }
+});
+
+window.addEventListener("click", function(clique){ // evento de fechar o menu, caso clique fora do menu.
+    if (!menu.contains(clique.target) && !icone.contains(clique.target)){ // se a tela foi clicada, porém o menu NÃO foi clicado E o icone também NÃO foi clicado,
+        menu.style.display = "none" // o menu fecha
     }
 });

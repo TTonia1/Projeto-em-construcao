@@ -23,6 +23,23 @@
     src: url(../style/Kanit-Regular.ttf);
 }
 
+@keyframes vai {
+    from {
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes volta {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
 body{
     margin: 0;
 }
@@ -292,6 +309,7 @@ body{
     background-color: #027551;
 }
 #aba_menu{
+    animation: vai 1s alternate;
     display: none;
     width: 75%;
     height: 104%;

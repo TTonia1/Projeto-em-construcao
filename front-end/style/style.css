@@ -452,14 +452,18 @@ body{
     font-size: 20px;
   }
   #circulo_capa_da_foca{
+    display: flex;
     width: 320px;
     height: 350px;
-    background-color: white;
+    background-color: #f7f7f7;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 40px 40px 50px;
     margin-bottom: 7%;
+  }
+  #foca{
+    max-width: 90%;
   }
   #centralizar_div_capa{
     width: 100%;

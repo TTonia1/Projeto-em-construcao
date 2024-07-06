@@ -5,8 +5,10 @@ menu.style.transform = "translateX(-101%)"
 icone.addEventListener("click", function(){
     if (menu.style.transform == "translateX(-101%)"){
         menu.style.transform = "translateX(0)"
+        console.log("abrindo")
     } else {
         menu.style.transform = "translateX(-101%)"
+        console.log("fechando")
     }
 });
 
